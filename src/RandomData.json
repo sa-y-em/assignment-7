@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Aisha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "aisha.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in first year of university. We used to pull all-nighters before every exam. She's now doing her Masters in London.",
+    "goal": 14,
+    "next_due_date": "2025-08-10"
+  },
+  {
+    "id": 2,
+    "name": "Rafiul Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "rafiul.hasan@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["childhood", "neighbor"],
+    "bio": "Grew up on the same street. We've been friends since we were 7. Still meets up for tea every few weeks.",
+    "goal": 10,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "nusrat.jahan@yahoo.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "My senior at the office who taught me everything about the job in my first month. Super supportive and always available for advice.",
+    "goal": 12,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/54.jpg",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["college", "travel buddy"],
+    "bio": "We backpacked through Cox's Bazar and Sylhet together. Planning our next trip to Nepal. Terrible at replying but always shows up.",
+    "goal": 21,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 5,
+    "name": "Meherun Nesa",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "meherun.nesa@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["close friend", "gym buddy"],
+    "bio": "We started going to the gym together last year and became inseparable. She keeps me accountable and always brings homemade snacks.",
+    "goal": 7,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 6,
+    "name": "Sabbir Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "sabbir.hossain@hotmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["work", "colleague"],
+    "bio": "We joined the company the same week and bonded over lunch breaks. Great at cracking jokes during the most stressful sprints.",
+    "goal": 10,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 7,
+    "name": "Lamia Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "lamia.sultana@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["school", "old friend"],
+    "bio": "Best friends from school since class 6. Life got busy after HSC but we never lost touch completely. Deserves more of my time.",
+    "goal": 30,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 8,
+    "name": "Imran Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/men/19.jpg",
+    "email": "imran.chowdhury@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["gaming", "college"],
+    "bio": "Met in a Discord server during COVID and we've been gaming together ever since. We finally met in person last Eid.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  }
+]
