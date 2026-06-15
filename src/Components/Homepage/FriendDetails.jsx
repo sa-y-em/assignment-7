@@ -11,7 +11,7 @@ import { context } from './Context';
 const FriendDetails = () => {
 
 
-    const {callFunction} = useContext(context)
+    const {callFunction , textFunction ,videoFunction} = useContext(context)
 
     
 
@@ -112,8 +112,8 @@ Archive</div>
                 <p className='m-2'>Quick Check-In </p>
                 <div className='flex flex-3 justify-between p-3 gap-4 text-2xl '>
                     <button className='p-12 w-full bg-gray-400 rounded text-center items-center flex flex-col  justify-center hover:cursor-pointer' onClick={()=>callFunction(desireFriend)}> <FiPhoneCall />call</button>
-                    <button className='p-12 w-full bg-gray-400 rounded text-center items-center flex flex-col justify-center'> <MdOutlineTextsms />text</button>
-                    <button className='p-12 w-full bg-gray-400 rounded text-center items-center flex flex-col justify-center'> <IoVideocamOutline />video</button>
+                    <button className='p-12 w-full bg-gray-400 rounded text-center items-center flex flex-col justify-center' onClick={()=>textFunction(desireFriend)}> <MdOutlineTextsms />text</button>
+                    <button className='p-12 w-full bg-gray-400 rounded text-center items-center flex flex-col justify-center ' onClick={()=>videoFunction(desireFriend)}> <IoVideocamOutline />video</button>
                 </div>
             </div>
         </div>

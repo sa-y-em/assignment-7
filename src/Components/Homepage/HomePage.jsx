@@ -6,6 +6,7 @@ import BeforeFriendCard from './BeforeFriendCard';
 import Friends from '../../Friends';
 import Footer from './Footer';
 import AllContext from './Context';
+import { toast } from 'react-toastify';
 
 const HomePage = () => {
     return (
@@ -17,6 +18,7 @@ const HomePage = () => {
             
            </Outlet>
            <Footer></Footer>
+           
           
         </div>
     );

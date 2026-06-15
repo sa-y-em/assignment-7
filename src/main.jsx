@@ -13,6 +13,7 @@ import Stats from './Components/Stats.jsx'
 import FriendDetails from './Components/Homepage/FriendDetails.jsx'
 import allFriends from "./RandomData.json"
 import AllContext from './Components/Homepage/Context.jsx'
+import { ToastContainer } from 'react-toastify'
 
 
 const router = createBrowserRouter([
@@ -52,6 +53,6 @@ createRoot(document.getElementById('root')).render(
     <AllContext>
       <RouterProvider router={router}></RouterProvider>
     </AllContext>
-    
+    <ToastContainer />
   </StrictMode>,
 )
