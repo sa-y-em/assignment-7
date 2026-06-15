@@ -21,9 +21,14 @@ const router = createBrowserRouter([
       {
         index:true,
         Component: Banner
-      },{
-        path:"/friends",
-        Component: Friends
+      },
+      // {
+      //   path:"/friends",
+      //   Component: Friends
+      // },
+      {
+        path: "/friends/:id",
+        element:<p>friend details</p>
       },{
         path:"*",
         Component:ErrorPage

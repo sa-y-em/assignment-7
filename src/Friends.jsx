@@ -1,5 +1,6 @@
 import React from 'react';
 import AllFriendsData from "./RandomData.json";
+import { NavLink } from 'react-router';
 
 const statusStyles = {
   "overdue": "bg-red-400 text-white",
@@ -9,7 +10,7 @@ const statusStyles = {
 
 const Friends = () => {
     return (
-        <div className="">
+        <NavLink to="/friends/:id">
             
             <div className="grid grid-cols-4 gap-4">
                 {AllFriendsData.map((friend) => (
@@ -41,7 +42,7 @@ const Friends = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </NavLink>
     );
 };
 

@@ -4,6 +4,7 @@ import { Outlet } from 'react-router';
 import Banner from '../Banner';
 import BeforeFriendCard from './BeforeFriendCard';
 import Friends from '../../Friends';
+import Footer from './Footer';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <Banner></Banner>
             
            </Outlet>
+           <Footer></Footer>
         </div>
     );
 };
