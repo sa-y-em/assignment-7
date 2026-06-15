@@ -10,11 +10,11 @@ const statusStyles = {
 
 const Friends = () => {
     return (
-        <NavLink to="/friends/:id">
+        <div>
             
             <div className="grid grid-cols-4 gap-4">
                 {AllFriendsData.map((friend) => (
-                    <div key={friend.id} className="flex flex-col items-center text-center bg-white border border-gray-300 rounded-2xl p-5 shadow-sm hover:cursor-pointer">
+                    <NavLink to={`/friends/${friend.id}`} key={friend.id} className="flex flex-col items-center text-center bg-white border border-gray-300 rounded-2xl p-5 shadow-sm hover:cursor-pointer">
                         
                         <img
                             src={friend.picture}
@@ -39,10 +39,10 @@ const Friends = () => {
                             {friend.status}
                         </span>
 
-                    </div>
+                    </NavLink>
                 ))}
             </div>
-        </NavLink>
+        </div>
     );
 };
 

@@ -10,6 +10,9 @@ import ErrorPage from './Components/Homepage/ErrorPage.jsx'
 import Home from './Components/Home.jsx'
 import TimeLine from './Components/TimeLine.jsx'
 import Stats from './Components/Stats.jsx'
+import FriendDetails from './Components/Homepage/FriendDetails.jsx'
+import allFriends from "./RandomData.json"
+import AllContext from './Components/Homepage/Context.jsx'
 
 
 const router = createBrowserRouter([
@@ -28,7 +31,8 @@ const router = createBrowserRouter([
       // },
       {
         path: "/friends/:id",
-        element:<p>friend details</p>
+        element:<FriendDetails></FriendDetails>
+    
       },{
         path:"*",
         Component:ErrorPage
@@ -45,6 +49,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <AllContext>
+      <RouterProvider router={router}></RouterProvider>
+    </AllContext>
+    
   </StrictMode>,
 )
